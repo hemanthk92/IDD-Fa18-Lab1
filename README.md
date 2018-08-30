@@ -16,9 +16,12 @@ We've copied the questions from the lab here. Answer them below!
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+
+ If we use the 5 band resistor. First Band - Brown Second Band - Black Third Band - Black Fourth Band - Black Fifth Band - Brown
  
 **b. What do you have to do to light your LED?**
 
+After setting up the circuit with a LED and switch we have to connect the arduino to a laptop as a power source. Then we click the switch to close the circuit which will cause current to flow and power the LED.
 
 ## Part C. Blink a LED using Arduino
 
