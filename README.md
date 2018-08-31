@@ -58,7 +58,7 @@ No we are not able to ge the LED to glow the range of the potentionmeter. Arudin
 We have to modify the pin #.
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 Analog write uses PWM so it sends current signal many times on and off in a second. digitwrite produces a constant signal. 
-Why does the PWM change the fade of the light? Shouldnt it just be turning on and off a lot ?
+Why does the PWM change the fade of the light? Shouldnt it just be turning on and off a lot ? we dont even have to use knob on potentioemter. 
 
 ## Part F. FRANKENLIGHT!!!
 
