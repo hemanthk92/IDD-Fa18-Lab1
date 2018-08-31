@@ -17,7 +17,8 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What color stripes are on a 100 Ohm resistor?**
 
- If we use the 5 band resistor. \nFirst Band - Brown \nSecond Band - Black \nThird Band - Black \nFourth Band - Black \nFifth Band - Brown
+ If we use the 5 band resistor. 
+ First Band - Brown, Second Band - Black, Third Band - Black, Fourth Band - Black, Fifth Band - Brown
  
 **b. What do you have to do to light your LED?**
 
