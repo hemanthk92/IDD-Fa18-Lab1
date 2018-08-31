@@ -28,12 +28,14 @@ After setting up the circuit with a LED and switch we have to connect the arduin
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+The digitalwrite function turns the led on. this is at line 8 and 10.
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
-
+The delay function controls the stopping time in between the light flashing. This is on lines 9 and 11.
 **c. What circuit element would you want to add to protect the board and external LED?**
- 
+ You should add a resistor so you don't supply to much current to the LED and break it.
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+If the delay is <= 10, you cannot tell the light is blinking. 
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
