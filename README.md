@@ -56,10 +56,11 @@ No we are not able to ge the LED to glow the range of the potentionmeter. Arudin
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
-We have to modify the pin #.
+We use the analogwrite function as opposed to digital write function. In the analogwrite function we can specify a brightness.
+And in order to make the light fade we loop through various brightness values.
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
-Analog write uses PWM so it sends current signal many times on and off in a second. digitwrite produces a constant signal. 
-Why does the PWM change the fade of the light? Shouldnt it just be turning on and off a lot ? we dont even have to use knob on potentioemter. 
+Analog write uses PWM so it sends current signal many times on and off in a second. digitalwrite produces a constant signal. 
 
 ## Part F. FRANKENLIGHT!!!
 
