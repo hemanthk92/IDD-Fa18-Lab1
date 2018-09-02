@@ -36,7 +36,8 @@ The delay function controls the stopping time in between the light flashing. Thi
  You should add a resistor so you don't supply to much current to the LED and break it.
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 If the delay is <= 10, you cannot tell the light is blinking. 
-**e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+<br />
+**e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.** <br />
 [link to code](led_blink.ino)
 
 
