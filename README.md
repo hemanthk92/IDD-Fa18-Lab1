@@ -54,7 +54,7 @@ If the delay is <= 10, you cannot tell the light is blinking.
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
-No we are not able to ge the LED to glow the range of the potentionmeter. Arudino cannot output an analog voltage.
+Yes we are able to get the potentiometer to glow and fade with the LED. The potentiometer acts as a variable resistor. 
 
 ## Part E. Fade an LED using Arduino
 
