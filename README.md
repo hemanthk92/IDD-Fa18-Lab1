@@ -48,7 +48,7 @@ If the delay is <= 10, you cannot tell the light is blinking.
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
-[link to video](external_led_blink.MOV)
+[link to video](https://www.youtube.com/watch?v=gv7c_gFRxzA&feature=share)
 
 
 ## Part D. Manually fade an LED
