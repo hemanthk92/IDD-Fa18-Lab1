@@ -69,7 +69,7 @@ Analog write uses PWM so it sends current signal many times on and off in a seco
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
-
+[link to picture of schematic](schematic.jpeg)
 I used a wireless keyboard from logitech. Here is a picture of the circuit with some labeled parts. The circuit is connected to a two double a batteries. The power then enters the PCB and flows through the power regulating devices. There is one large crystal osciallator and many resistors throughout the circuit. There are also wiring thats connect to the matrix of circuits behind individual keys. Key strokes on the board are then sent to microcontroller and then presumbly sent to connected laptop etc. 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 Yes there is a microcontroller that converts the location where the keystroke completes the circuit to a key on the keyboard. It then sends that key through the circuit and to the computer. 
@@ -84,9 +84,10 @@ l - inductor
 q - transistor
 d - diode
 **d. Is information stored in your device? Where? How?**
+Yes there is memory on the keyboard that maps each circuit in the matrix to a specfic letter on the keyboard. I could not find the memory on the PCB, the memory is probably built into the micro controller.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
-
+The keyboard has an on/off switch that we can use to hack. We can then use the switch to power on and off an external LED on our arduino board. I will take power from the arduino (laptop) and funnel it through the PCB on the keyboard and through the on/off switch. From the end of the circuit or the negative end I will connect the current back to the arduino board. 
 **Describe what you did here.**
 
 ### 3. Build your light!
