@@ -70,6 +70,7 @@ Analog write uses PWM so it sends current signal many times on and off in a seco
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
+I used a wireless keyboard from logitech. Here is a picture of the circuit with some labeled parts. The circuit is connected to a two double a batteries. The power then enters the PCB and flows through the power regulating devices. There is one large crystal osciallator and many resistors throughout the circuit. There are also wiring thats connect to the matrix of circuits behind individual keys. Key strokes on the board are then sent to microcontroller and then presumbly sent to connected laptop etc. 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 Yes there is a microcontroller that converts the location where the keystroke completes the circuit to a key on the keyboard. It then sends that key through the circuit and to the computer. 
 
