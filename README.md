@@ -71,11 +71,17 @@ Analog write uses PWM so it sends current signal many times on and off in a seco
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+Yes there is a microcontroller that converts the location where the keystroke completes the circuit to a key on the keyboard. It then sends that key through the circuit and to the computer. 
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+There are a grid of circuits underneath the keys of the keyboard. When a key is pressed the circuit below is completed and current flows through and back to the microcontroller. 
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
-
+There are slots for Double A batteries hook up that provide power. The batteries are connected to the circuit, since its 2 double A batteries the circuit through the system must be 3 volts. There is another point on the circuit labeled TP 3 2.2 V DC.
+There is a capicitor and many resistors that regulate the power through the circuit. 
+l - inductor
+q - transistor
+d - diode
 **d. Is information stored in your device? Where? How?**
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
