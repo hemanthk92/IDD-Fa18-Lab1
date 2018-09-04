@@ -22,7 +22,8 @@ We've copied the questions from the lab here. Answer them below!
  
 **b. What do you have to do to light your LED?**
 
-After setting up the circuit with a LED and switch we have to connect the arduino to a laptop as a power source. Then we click the switch to close the circuit which will cause current to flow and power the LED.
+From the 5V pin we connect a cable to the positive line. From the positive line we connect a resistor to the cathode of the LED. The Led is then placed next to the switch. From the other end of the switch we pick up the charge pass to the negative line through a wire. Then we connect the negative line to the ground. 
+Then we supply power to the circuit by connecting the board to the laptop. Then we click the switch to close the circuit which will cause current to flow and power the LED.
 
 ## Part C. Blink a LED using Arduino
 
