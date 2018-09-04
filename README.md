@@ -65,6 +65,7 @@ And in order to make the light fade we loop through various brightness values.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 Analog write uses PWM so it sends current signal many times on and off in a second. digitalwrite produces a constant signal. 
+<br >
 [link to code](analog_fade.ino)
 
 ## Part F. FRANKENLIGHT!!!
