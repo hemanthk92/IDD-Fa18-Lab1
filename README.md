@@ -10,7 +10,7 @@ We've copied the questions from the lab here. Answer them below!
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
+[link to picture](basic_breadboard.JPG)
 
 
 ## Part B. Manually Blink a LED
@@ -80,9 +80,7 @@ There are a grid of circuits underneath the keys of the keyboard. When a key is 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 There are slots for Double A batteries hook up that provide power. The batteries are connected to the circuit, since its 2 double A batteries the circuit through the system must be 3 volts. There is another point on the circuit labeled TP 3 2.2 V DC.
 There is a capicitor and many resistors that regulate the power through the circuit. 
-l - inductor
-q - transistor
-d - diode
+
 **d. Is information stored in your device? Where? How?**
 Yes there is memory on the keyboard that maps each circuit in the matrix to a specfic letter on the keyboard. I could not find the memory on the PCB, the memory is probably built into the micro controller.
 
@@ -93,5 +91,5 @@ The keyboard has an on/off switch that we can use to hack. We can then use the s
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
-
+[link to video](https://youtu.be/ObonbDq9Cnw)
 **Include any schematics or photos in your lab write-up.**
