@@ -94,5 +94,5 @@ The keyboard has an on/off switch that we can use to hack. We can then use the s
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
-[link to video](https://youtu.be/ObonbDq9Cnw)
+[link to video](https://youtu.be/ObonbDq9Cnw)<br>
 **Include any schematics or photos in your lab write-up.**
